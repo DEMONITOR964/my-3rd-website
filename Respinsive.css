@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+
+header{
+    width:100vw;
+    height:100vh;
+    background-image:
+    url('./thumbnails/g-wagon-black-opacity.png');
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
+a{
+   font-weight:bold;
+    font-family:Roboto;
+    font-size:12px;
+    text-decoration: none;
+}
+.header-content{
+    margin-bottom:55vh;
+    margin-right:51vw;
+    font-weight:500;
+    color:rgba(223, 221, 221, 0.884);
+    text-align:center;
+}
+.header-content h2{
+    font-size:8vmin;
+}
+.header-content h1{
+    font-size:5vmin;
+    margin-top:20px;
+    margin-bottom:10px
+}
+.line{
+    width:150px;
+    height:1px;
+    background: rgb(121, 222, 253);
+    margin:2px auto;
+    border-radius:2px;
+}
+.ctn{
+    background-color: gray;
+    padding:4px 8px;
+    color:whitesmoke;
+    border-radius:39px;
+
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+position:absolute;
+width:100%;
+color: rgb(0, 0, 0);
+margin-top:10px
+}
+.nav-links{
+    display:grid;
+    position:absolute;
+    grid-template-columns: 1fr 1fr 1fr 50px;
+    align-items:center;
+    width:100%;
+    margin:40px auto;
+    color:rgb(22, 31, 34);
+    font-weight:bold;
+    font-family: kanit;
+    background:linear-gradient(to right,rgba(245, 245, 245, 0.171),rgba(0, 0, 0, 0));
+    border-radius: 8px;
+}
+.nav-links .ctn:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.55s;
+}
+.nav-links .ctn{
+        transition: 0.7s;
+cursor:pointer;
+}
+
+    .header-content .ctn:hover{
+        background-color: rgb(221, 221, 215);
+        color:black;
+        font-weight:bold;
+        transition: 0.55s;
+    }
+    .logo:hover{
+        cursor:pointer;
+    }
+    .nav-links .links{
+        cursor: pointer;
+    }
+   
